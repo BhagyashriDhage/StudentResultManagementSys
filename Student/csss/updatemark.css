@@ -1,0 +1,125 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 20px;
+    overflow-x: hidden;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../image/add.jfif);
+    height:700px;;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.clearfix:after{
+    content: " ";
+    visibility: "";
+    display: block;
+    height: 0px;
+    clear: both;
+}
+.row{
+    max-width: 1180px;
+    margin:0 auto;
+}
+.logo{
+    height: 120px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+.main-nav{
+    float: right;
+    margin-top: 60px;
+}
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+.main-nav li a{
+    padding: 5px 0;
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 100;
+}
+.main-nav li a:hover{
+    border-bottom: 2px solid #55ecec;
+}
+h3{
+    margin-left: 600px;
+    margin-top: 10px;
+}
+
+
+.main-content-header a{
+    text-decoration: none;
+    color: #bf55ec;
+}
+.main-content-header a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+h1{
+    font-family: bold;
+    color: white;
+}
+.submit{
+    width:200%;
+    padding: 0.5rem;
+    margin-left:50px;
+    font-size: 150%;
+}
+.submit:hover{
+    background-color: rgb(39, 141, 201);
+    color: black;
+   
+}
+.student_class{
+  padding-left: 50px;
+  color: yellow;
+ border-bottom: 1px solid white;
+  
+}
+
+.table1{
+    margin-left: 400px;
+    
+}
+.table2{
+    margin-left: 320px;
+    font-size: 18px;
+    margin-top:50px;
+    border-top:1px solid white;
+    
+   
+    
+}
+
+.student_class2{
+    border: 1px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+/***Haeding Border*/
+.student_id{
+    border-left: 1px solid white;
+    color: yellow;
+    border-bottom: 1px solid white;
+}
+.student_edit{
+    border-right: 1px solid white;
+    color: yellow;
+    border-bottom: 1px solid white;
+    
+}
